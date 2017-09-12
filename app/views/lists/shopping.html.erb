@@ -1,2 +1,5 @@
-<h1>Lists#shopping</h1>
-<p>Find me in app/views/lists/shopping.html.erb</p>
+<h1>Shopping Lists</h1>
+<p> </p>
+<% @groceries.each do |food, number| %>
+<%= food %> : <%= number %>
+<% end %>
