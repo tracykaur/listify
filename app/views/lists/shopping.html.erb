@@ -1,5 +1,8 @@
 <h1>Shopping Lists</h1>
-<p> </p>
+
+
+<h2>
 <% @groceries.each do |food, number| %>
-<%= food %> : <%= number %>
+<%= "#{food} : #{number}" %> <br>
 <% end %>
+</h2>
